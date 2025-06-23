@@ -1,5 +1,9 @@
 #' Print the sounds animals make
 #'
+#' Print the sound that an animal makes in the console.
+#'
+#' Is a wrapper to [paste0()]. This is a *silly* function in a **toy package**.
+#'
 #' @param animal A string - the name of the animal
 #' @param sound A string - the name of the sound
 #'

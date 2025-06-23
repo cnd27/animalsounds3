@@ -15,7 +15,10 @@ animal_sounds(animal, sound)
 A string - 'The \{animal\} says \{sound\}!'
 }
 \description{
-Print the sounds animals make
+Print the sound that an animal makes in the console.
+}
+\details{
+Is a wrapper to \code{\link[=paste0]{paste0()}}. This is a \emph{silly} function in a \strong{toy package}.
 }
 \examples{
 animal_sounds('dog','woof')
