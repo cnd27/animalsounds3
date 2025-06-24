@@ -15,6 +15,5 @@ test_that("error message for invalid input", {
 })
 test_that("animal_sounds produces expected strings with no sounds", {
   giraffe <- animal_sounds("giraffe")
-  expect_equal(giraffe,
-               "The giraffe makes no sound.")
+  expect_equal(giraffe, "The giraffe makes no sound.")
 })
