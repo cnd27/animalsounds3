@@ -1,11 +1,10 @@
 Package: animalsounds3
-Title: What the Package Does (One Line, Title Case)
+Title: Makes Animal Sounds
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R: person("Christopher", "Davis", , "c.davis.7@warwick.ac.uk", role = c("aut", "cre"))
+Description: Prints a noise an animal makes given the input of an animal and a 
+    sound.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
